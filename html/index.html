@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Passion pour la Cybersécurité</title>
+    <style>
+        /* Réinitialisation de base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Arrière-plan sombre avec un style 'Cyber' */
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Carte principale */
+        .card {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            max-width: 750px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 255, 136, 0.05);
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Ligne décorative fluo en haut de la carte */
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, #00ff88, #00bfff);
+        }
+
+        /* En-tête */
+        .badge {
+            display: inline-block;
+            background-color: rgba(0, 255, 136, 0.1);
+            color: #00ff88;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            border: 1px solid rgba(0, 255, 136, 0.3);
+        }
+
+        h1 {
+            color: #ffffff;
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        h1 span {
+            color: #00ff88;
+        }
+
+        /* Textes */
+        p {
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: #8b949e;
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            color: #ffffff;
+            font-weight: 500;
+        }
+
+        /* Citation / Citation de motivation */
+        blockquote {
+            border-left: 3px solid #00bfff;
+            padding-left: 15px;
+            margin: 25px 0;
+            font-style: italic;
+            color: #58a6ff;
+            background-color: rgba(88, 166, 255, 0.05);
+            padding: 12px 15px;
+            border-radius: 0 6px 6px 0;
+        }
+
+        /* Cartes de piliers / compétences */
+        .pillars {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .pillar-box {
+            background-color: #21262d;
+            border: 1px solid #30363d;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .pillar-box h3 {
+            color: #ffffff;
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+
+        .pillar-box p {
+            font-size: 0.9rem;
+            margin-bottom: 0;
+        }
+
+        /* Bouton d'action */
+        .btn-container {
+            margin-top: 35px;
+            text-align: center;
+        }
+
+        .btn {
+            display: inline-block;
+            background: linear-gradient(90deg, #00ff88, #00bfff);
+            color: #0d1117;
+            font-weight: bold;
+            padding: 12px 28px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 255, 136, 0.3);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <span class="badge">&#128274; Engagement & Passion</span>
+        <h1>Protéger le monde numérique : <span>Ma Motivation</span></h1>
+        
+        <p>
+            À une époque où chaque aspect de notre vie repose sur des systèmes connectés, la <span class="highlight">cybersécurité</span> n'est pas seulement une discipline technique pour moi : c'est une véritable vocation.
+        </p>
+
+        <p>
+            Ce qui me passionne, c'est la complexité du domaine et le défi intellectuel permanent qu'il représente. Face à des menaces en constante évolution, chaque vulnérabilité devient une énigme à résoudre, et chaque système sécurisé est une victoire collective.
+        </p>
+
+        <blockquote>
+            "La sécurité n'est pas un produit, mais un processus continu d'apprentissage, d'adaptation et de vigilance."
+        </blockquote>
+
+        <p>
+            Mon objectif est d'apporter ma contribution à la construction d'un espace numérique plus sûr, éthique et résilient, en combinant curiosité constante, rigueur technique et esprit d'analyse.
+        </p>
+
+        <!-- Les 3 piliers de la passion -->
+        <div class="pillars">
+            <div class="pillar-box">
+                <h3>&#128080; Curiosité</h3>
+                <p>Apprendre en continu face à des menaces qui évoluent chaque jour.</p>
+            </div>
+            <div class="pillar-box">
+                <h3>&#128737; Protection</h3>
+                <p>Défendre les données, les utilisateurs et les infrastructures critiques.</p>
+            </div>
+            <div class="pillar-box">
+                <h3>&#129504; Résolution</h3>
+                <p>Analyser des problèmes complexes avec logique et créativité.</p>
